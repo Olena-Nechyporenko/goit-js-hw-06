@@ -7,6 +7,7 @@ function onSubmit (evt) {
     const {email, password} = evt.currentTarget.elements;
     if (email.value === '' || password.value === '') {
         alert("Всі поля повинні бути заповнені!");
+        return;
     }
     const formDataStorageObj = {
         email : email.value,

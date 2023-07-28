@@ -1,8 +1,14 @@
 
 // const input = document.querySelector("input")
+// const btnCreate = document.querySelector("[data-create]")
 // const boxes = document.querySelector("#boxes")
-// const btn = document.querySelectorAll("button")
 
+
+// btnCreate.addEventListener("click", onClick)
+
+// function onClick() {
+// console.log(Number(input.value))
+// }
 
 
 // function createBoxes(amount) {
@@ -11,6 +17,10 @@
 // el.style.height = "30px"
 // el.style.backgroundColor = getRandomHexColor()
 // }
+// console.log(createBoxes(onClick()))
+
+
+
 
 
 // function getRandomHexColor() {
